@@ -1,0 +1,52 @@
+Java KeyWords
+
+java Keywords are also known reserved words.
+
+abstract
+boolean
+break
+byte
+case
+catch
+char
+class
+continue
+default
+do
+double
+else
+enum : Java enum keyword is used to define a fixed set of constants. Enum constructors are always private or default.
+extends
+final
+finally
+float
+for
+if
+implements
+import
+instanceof
+int
+interface:
+long
+native: Java native keyword is used to specify that a method is implemented in native code using JNI (Java Native Interface).
+new
+null
+package
+private
+protected:
+public:
+return
+short:
+static:
+strictfp:
+super
+switch:
+synchronized
+this
+throw:
+throws:
+transient:
+try
+void
+volatile:
+while:
