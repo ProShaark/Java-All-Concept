@@ -56,9 +56,9 @@ public class DecisionMakingStatement {
 		{
 			System.out.println("if statement");
 		}
-		else
+		else if(true)
 		{
-			System.out.println("else block");
+			System.out.println("else if block");
 		}
 
 		if(true)
