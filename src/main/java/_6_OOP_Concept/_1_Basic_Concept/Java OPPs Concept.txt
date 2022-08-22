@@ -1,0 +1,113 @@
+JAVA OOPs CONCEPTS
+Object-Oriented Programming is a paradigm that provides many concepts, such as inheritance
+, data binding, polymorphism, etc
+
+The programming paradigm where everything is represented as an object is known as a truly 
+object-oriented programming language.
+
+The main aim of object-oriented programming is to implement real-world entities, for example, 
+object, classes, abstraction, inheritance, polymorphism, etc.
+
+
+OOPs (Object-Oriented Programming System)
+
+ Object-Oriented Programming is a methodology or paradigm to design a program using classes 
+ and objects. It simplifies software development and maintenance by providing some concepts:
+ 
+ Object
+ Class
+ Inheritance
+ ploymorphism
+ Abstraction
+ Encapsulation
+ 
+ 
+ Apart from these concepts, there are some other terms which are used in Object-Oriented 
+ design:
+ 
+ Coupling
+ Coupling
+ Association
+ Aggregation
+ Composition
+ 
+ 
+ 1) Object
+ 
+ An Object can be defined as an instance of a class.
+ AN object conation as address and takes up some space in memory
+ Object communicate using massage passing 
+ 
+ Example: A dog is an object because it has states like color, name, breed, etc. as well as behaviors like wagging the tail, barking, eating, etc.
+ 
+ 
+ 2) Class
+ 
+ Collection of object.
+ its called as aslo blueprint
+ user defined datatype and also non-primative data type 
+ it can not acopye a space in memory
+ 
+ 
+ 3) Inheritance
+ 
+ When one object acquires all the properties and behaviors of a parent object, it is known as inheritance.
+ It provides code reusability. It is used to achieve runtime polymorphism.
+ 
+ 4) Polymorphism
+ poly - object						= taking many forms 
+ morphism - many
+ 
+ If one task is performed in different ways,
+ 
+ In Java, we use method overloading and method overriding to achieve polymorphism.
+ 
+ 
+ 5) Abstraction
+ Hiding unwanted information and showing essential information
+ 
+ 6) Encapsulation
+ Binding data in particular thing 
+ Binding (or wrapping) code and data together into a single unit are known as encapsulation. 
+ 
+ ----------------------------------------------------------------------------------------------
+ Object-Oriented design:
+ 
+ 1) Coupling
+ 
+ Coupling refers to the knowledge or information or dependency of another class.
+ It arises when classes are aware of each other. If a class has the details information of another class, there is strong coupling
+ In Java, we use private, protected, and public modifiers to display the visibility level of a class, method, and field.
+ 
+  You can use interfaces for the weaker coupling because there is no concrete implementation.
+  
+  2) Cohesion
+  
+  Cohesion refers to the level of a component which performs a single well-defined task.
+   A single well-defined task is done by a highly cohesive method.
+   The weakly cohesive method will split the task into separate parts.
+   The java.io package is a highly cohesive package because it has I/O related classes and interface.
+    However, the java.util package is a weakly cohesive package because it has unrelated classes and interfaces.
+    
+ 3) Association
+ Association represents the relationship between the objects. Here, one object can be associated with one object or many objects. There can be four types of association between the objects:
+ 
+One to One
+One to Many
+Many to One, and
+Many to Many
+
+Association can be undirectional or bidirectional.
+
+4) Aggregation
+
+Aggregation is a way to achieve Association.
+Aggregation represents the relationship where one object contains other objects as a part of its state.
+
+ has-a relationship in Java.
+ inheritance represents the is-a relationship.
+ 
+ 5) Composition
+ 
+ The composition is also a way to achieve Association.
+ The composition represents the relationship where one object contains other objects as a part of its state.
